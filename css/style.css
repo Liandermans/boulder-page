@@ -1,0 +1,91 @@
+h1 {
+  text-align: center;
+  color: #132743;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  font-size: 2.5em;
+}
+h2 {
+  text-align: center;
+  color: #407088;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+}
+h3 {
+  color: #132743;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin: 20px 0;
+}
+p {
+  color: #132743;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 0;
+  font-size: 1.3em;
+}
+img {
+  display: block;
+  width: 40%;
+  margin: 20px auto 0;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #132743;
+  margin: 20px 0;
+  font-size: 1.3em;
+}
+button {
+  margin: 40px auto;
+  display: block;
+  padding: 15px 20px;
+  background-color: #407088;
+  border-style: solid;
+  border-color: #407088;
+  color: white;
+  border-radius: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.2);
+  transition: all 200ms ease-in-out;
+}
+button:hover {
+  cursor: pointer;
+  border-style: solid;
+  background-color: #fdf0e9;
+  border-color: #407088;
+  color: #132743;
+}
+hr {
+  margin: 30px 5px;
+  border-color: #407088;
+}
+.total-page {
+  width: 60%;
+  margin: 0 auto;
+  padding: 40px;
+  background: linear-gradient(
+    179.4deg,
+    rgb(253, 240, 233) 2.2%,
+    rgb(255, 194, 203) 96.2%
+  );
+}
+.credits {
+  margin: 0 30% 0 30%;
+  color: #132743;
+  line-height: 2;
+  font-size: smaller;
+}
+.safety {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 85%;
+  border-style: solid;
+  border-color: #fdf0e9;
+  border-radius: 6px;
+}
+.exclamation-mark {
+  color: firebrick;
+  font-weight: 800;
+  font-size: x-large;
+}
